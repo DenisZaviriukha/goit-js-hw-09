@@ -20,7 +20,7 @@ refs.stopBtn.setAttribute('disabled', '')
 function onStartBtn(e) {
     rainbow = setInterval(() => {
         refs.body.style.backgroundColor = getRandomHexColor()
-    }, 333)  
+    }, 1000)  
     refs.startBtn.setAttribute('disabled', '')
     refs.stopBtn.removeAttribute('disabled')
 }
